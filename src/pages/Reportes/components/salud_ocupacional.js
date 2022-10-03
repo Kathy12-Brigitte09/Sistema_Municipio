@@ -51,13 +51,13 @@ const salud_ocupacional = () => {
                
             <ButtonGroup variant="contained" aria-label="outlined primary button group" className='botones' >
                     <Button  className='boton1' href='Trabajadores_aptos'>
-                        <WarningOutlinedIcon sx={{ fontSize:50 }} />
+                        <EngineeringIcon sx={{ fontSize:50 }}/>
                         Indicador de trabajadores Aptos</Button>
                     <Button className='boton2' href='Trabajadores_aptos'>
                         <AirlineSeatFlatIcon sx={{ fontSize:50 }}/>
                         Indicador de Personal con Restricción</Button>
                     <Button  className='boton1' href='Trabajadores_aptos' >
-                        <EngineeringIcon sx={{ fontSize:50 }}/>
+                    <WarningOutlinedIcon sx={{ fontSize:50 }} />
                         Indicador de Trabajadores no Aptos</Button>
             </ButtonGroup>
       
