@@ -40,16 +40,11 @@ const Salud = () => {
         <div style={{ display: 'flex', height: 400, width: '100%' }}>
       <DataGrid rows={rows} columns={columns} />
     </div>
-        
-    
-    
-          
+                  
         <div className='piepagina'>
           <p>MUNICIPIO DE RIOBAMBA- ESPOCH</p>
     
         </div> 
-          
-     
       
       </div>   
     

@@ -20,6 +20,7 @@ import CondicionesIn from '../src/pages/Reportes/components/Indicador_cond_inseg
 
 import './App.css';
 import Login from './pages/Login/Login';
+import Salud from './pages/Reportes/components/Salud';
 
 
 function App() {
@@ -78,7 +79,7 @@ function App() {
             </Route>
 
             <Route path={'/Salud'}>
-            <No_Apto />
+            <Salud />
             </Route>
            
         </Switch>
