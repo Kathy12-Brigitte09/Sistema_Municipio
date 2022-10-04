@@ -66,8 +66,7 @@ const rows= [
   { id: 4, col1: 'Marzo', col2: '5', col3: '5', col4: '100,00%', col5: 'Plan de vigilancia de la Salud 2022' ,col6: 'Campaña de salud preventiva. Plan anual de capacitación 2023'},
   { id: 5, col1: 'Abril', col2: '1', col3: '1', col4: '100,00%',col5: 'Plan de vigilancia de la Salud 2022' ,col6: 'Campaña de salud preventiva. Plan anual de capacitación 2023'},
   { id: 6, col1: 'Mayo', col2: '3', col3: '3', col4: '100,00%',col5: 'Capacitación en prevención de enfermedades y accidentes laborales, higiene postural, primeros auxilios y Riesgo PSICOLOGICO' ,col6: 'Capacitación Pevención alcoholismo'},
-  { id: 7, col1: 'Junio', col2: '3', col3: '3', col4: '100,00%',col5: 'Incremento de casos covid 19' ,col6: 'Capacitación Pevención alcoholismo'},
-  {col1: 'DATOS'}
+  { id: 7, col1: 'Junio', col2: '3', col3: '3', col4: '100,00%',col5: 'Incremento de casos covid 19' ,col6: 'Capacitación Pevención alcoholismo'}
 ];
 
 const columns= [
@@ -78,6 +77,5 @@ const columns= [
   { field: 'col3', headerName: 'Denominador', width: 95 },
   { field: 'col4', headerName: 'Resultados', width: 90 },
   { field: 'col5', headerName: 'Análisis de causas', width: 250},
-  { field: 'col6', headerName: 'Acciones Propuestas', width: 250 },
-  { field: 'col7', headerName: '', width: 250}
+  { field: 'col6', headerName: 'Acciones Propuestas', width: 250 }
 ];
