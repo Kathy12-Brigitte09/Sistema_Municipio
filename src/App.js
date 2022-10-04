@@ -12,7 +12,7 @@ import Archivo from './pages/Reportes/components/gestion_finaciera';
 import GestionC from '../src/pages/Reportes/components/gestion_cumunicacion';
 import SeguridadO from '../src/pages/Reportes/components/seguridad_ocupacional';
 import SaludO from '../src/pages/Reportes/components/salud_ocupacional';
-import TrabajadoresA from '../src/pages/Reportes/components/Trabajadores_aptos';
+import Trabajadores_aptos from '../src/pages/Reportes/components/Trabajadores_aptos';
 import Restriccion from '../src/pages/Reportes/components/Restriccion';
 import No_Apto from '../src/pages/Reportes/components/No_Apto';
 import Consultas_Medicas from '../src/pages/Reportes/components/Consultas_Medicas';
@@ -66,7 +66,7 @@ function App() {
             <SaludO />
             </Route>
             <Route path={'/Trabajadores_aptos'}>
-            <TrabajadoresA />
+            <Trabajadores_aptos />
             </Route>
             <Route path={'/Restriccion'}>
             <Restriccion />
