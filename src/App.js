@@ -14,6 +14,8 @@ import SeguridadO from '../src/pages/Reportes/components/seguridad_ocupacional';
 import SaludO from '../src/pages/Reportes/components/salud_ocupacional';
 import TrabajadoresA from '../src/pages/Reportes/components/Trabajadores_aptos';
 import Restriccion from '../src/pages/Reportes/components/Restriccion';
+import No_Apto from '../src/pages/Reportes/components/No_Apto';
+import Consultas_Medicas from '../src/pages/Reportes/components/Consultas_Medicas';
 import CondicionesIn from '../src/pages/Reportes/components/Indicador_cond_inseg';
 
 import './App.css';
@@ -67,6 +69,16 @@ function App() {
             </Route>
             <Route path={'/Restriccion'}>
             <Restriccion />
+            </Route>
+            <Route path={'/No_Apto'}>
+            <No_Apto />
+            </Route>
+            <Route path={'/Consultas_Medicas'}>
+            <No_Apto />
+            </Route>
+
+            <Route path={'/Salud'}>
+            <No_Apto />
             </Route>
            
         </Switch>

@@ -7,7 +7,7 @@ import { textAlign } from '@mui/system';
 
 
 
-const Restriccion = () => {
+const Salud = () => {
 
     return (
 
@@ -57,7 +57,7 @@ const Restriccion = () => {
       );
     
 }
-export default Restriccion
+export default Salud
 
 const rows= [
   { id: 1, col1: 'Enero', col2: '1', col3: '1', col4: '100,00%' ,col5: 'Incremento de casos covid 19' ,col6: 'Medidas de bioseguridad, prevención y conducta ante covid 19'},

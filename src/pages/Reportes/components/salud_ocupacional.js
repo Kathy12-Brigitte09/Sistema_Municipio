@@ -56,7 +56,7 @@ const salud_ocupacional = () => {
                     <Button className='boton2' href='Restriccion'>
                         <AirlineSeatFlatIcon sx={{ fontSize:50 }}/>
                         Indicador de Personal con Restricción</Button>
-                    <Button  className='boton1' href='Trabajadores_aptos' >
+                    <Button  className='boton1' href='No_Apto' >
                     <WarningOutlinedIcon sx={{ fontSize:50 }} />
                         Indicador de Trabajadores no Aptos</Button>
             </ButtonGroup>
@@ -65,10 +65,10 @@ const salud_ocupacional = () => {
             <div className='botn2'>
                
             <ButtonGroup variant="contained" aria-label="outlined primary button group" className='botones2' >
-                    <Button  className='boton4' href='Trabajadores_aptos'>
+                    <Button  className='boton4' href='Consultas_Medicas'>
                         <LocalHospitalIcon sx={{ fontSize:50 }} />
                         Indicador de Consultas Médicas </Button>
-                    <Button className='boton5' href='Trabajadores_aptos'>
+                    <Button className='boton5' href='Salud'>
                         <GroupIcon sx={{ fontSize:50 }}/>
                         Indicador deterioro de la Salud</Button>
                     

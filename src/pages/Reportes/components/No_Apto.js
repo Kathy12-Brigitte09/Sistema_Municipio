@@ -7,7 +7,7 @@ import { textAlign } from '@mui/system';
 
 
 
-const Restriccion = () => {
+const No_Apto = () => {
 
     return (
 
@@ -34,7 +34,7 @@ const Restriccion = () => {
           
         </div>
         <br></br>
-          <h3>Indicador de Personal con Restricción</h3>
+          <h3>Indicador de Trabajadores no Aptos</h3>
           
         <br></br>
         <div style={{ display: 'flex', height: 400, width: '100%' }}>
@@ -57,7 +57,7 @@ const Restriccion = () => {
       );
     
 }
-export default Restriccion
+export default No_Apto
 
 const rows= [
   { id: 1, col1: 'Enero', col2: '1', col3: '1', col4: '100,00%' ,col5: 'Incremento de casos covid 19' ,col6: 'Medidas de bioseguridad, prevención y conducta ante covid 19'},
