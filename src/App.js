@@ -74,7 +74,7 @@ function App() {
             <No_Apto />
             </Route>
             <Route path={'/Consultas_Medicas'}>
-            <No_Apto />
+            <Consultas_Medicas />
             </Route>
 
             <Route path={'/Salud'}>

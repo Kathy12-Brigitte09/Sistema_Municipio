@@ -34,7 +34,7 @@ const Consultas_Medicas = () => {
           
         </div>
         <br></br>
-          <h3>Indicador de Trabajadores no Aptos</h3>
+          <h3>Indicador de Consultas Médicas</h3>
           
         <br></br>
         <div style={{ display: 'flex', height: 400, width: '100%' }}>

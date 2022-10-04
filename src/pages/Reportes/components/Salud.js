@@ -34,7 +34,7 @@ const Salud = () => {
           
         </div>
         <br></br>
-          <h3>Indicador de Personal con Restricción</h3>
+          <h3>Indicador deterioro de la Salud</h3>
           
         <br></br>
         <div style={{ display: 'flex', height: 400, width: '100%' }}>
