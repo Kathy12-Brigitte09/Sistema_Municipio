@@ -23,14 +23,19 @@ const Trabajadores_aptos = () => {
             <p>INDICADORES DE GESTIÓN </p>
         </div>
           </div>
+          
           <div className='botton'>
             
       </div>
+      
      
         <div className='divisor'>
+
           
         </div>
-    
+        <br></br>
+          <h3>Indicadores de Trabajadores Aptos</h3>
+          
         <br></br>
         <div style={{ display: 'flex', height: 400, width: '100%' }}>
       <DataGrid rows={rows} columns={columns} />
