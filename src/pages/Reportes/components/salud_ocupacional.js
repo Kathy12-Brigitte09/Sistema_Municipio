@@ -53,7 +53,7 @@ const salud_ocupacional = () => {
                     <Button  className='boton1' href='Trabajadores_aptos'>
                         <EngineeringIcon sx={{ fontSize:50 }}/>
                         Indicador de trabajadores Aptos</Button>
-                    <Button className='boton2' href='Trabajadores_aptos'>
+                    <Button className='boton2' href='Restriccion'>
                         <AirlineSeatFlatIcon sx={{ fontSize:50 }}/>
                         Indicador de Personal con Restricción</Button>
                     <Button  className='boton1' href='Trabajadores_aptos' >

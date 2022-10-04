@@ -13,6 +13,7 @@ import GestionC from '../src/pages/Reportes/components/gestion_cumunicacion';
 import SeguridadO from '../src/pages/Reportes/components/seguridad_ocupacional';
 import SaludO from '../src/pages/Reportes/components/salud_ocupacional';
 import TrabajadoresA from '../src/pages/Reportes/components/Trabajadores_aptos';
+import Restriccion from '../src/pages/Reportes/components/Restriccion';
 import CondicionesIn from '../src/pages/Reportes/components/Indicador_cond_inseg';
 
 import './App.css';
@@ -63,6 +64,9 @@ function App() {
             </Route>
             <Route path={'/Trabajadores_aptos'}>
             <TrabajadoresA />
+            </Route>
+            <Route path={'/Restriccion'}>
+            <Restriccion />
             </Route>
            
         </Switch>
